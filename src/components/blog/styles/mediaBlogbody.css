@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) { 
+    .postnamecontent2{ 
+        grid-template-columns: 80% 20%;
+
+    }
+    .MakePost{
+        font-size: x-small;
+    }
+}

@@ -1,0 +1,75 @@
+.eachproducts{
+    text-align: center;
+    width: auto;
+    height: auto;
+    /* background: ; */
+    /* padding-top: 3%;
+    padding-bottom: 3%; */
+    padding: 3% 3% 3% 3%;
+    border-radius: .5vw;
+    box-shadow: -3px -3px 5px white,
+                 3px 3px 5px #b9bbc5;
+    margin-bottom: 10%;
+    margin-top: 6%;
+    margin-left: 3vw;
+  }
+
+  .prodimg{
+      width: 100%;
+  }
+
+  .func{
+      padding: 1% 2% 1% 2%;
+      border: 0;
+      border-radius: .2vw;
+      background-color: darkkhaki;
+      margin-left: 2%;
+      color: white;
+      font-family: 'Baloo 2', cursive;
+      font-size: large;
+      margin-top: 3%;
+      font-size: calc(8.5px + .5vw);
+  }
+
+  .prodsmallscreen{
+      display: none;
+  }
+
+  .prodbigscreen{
+      display: block;
+  }
+
+  .delprod{
+      margin-bottom: 4%;
+      background: red;
+      /* width: 30%; */
+      border-radius: .3vw;
+      border: 0;
+      cursor: pointer;
+      padding: 5px;
+      font-family: inherit;
+      color: white;
+      /* justify-content: center; */
+      /* align-items: center; */
+      text-align: center;
+  }
+
+  .smll{
+      margin: 17px;
+      margin-bottom: -20px;
+  }
+
+  .bgreds {
+    /* width: auto; */
+    cursor: pointer;
+    width: auto;
+    /* padding: 1.5%; */
+    background-color: red;
+    color: white;
+    font-family: inherit;
+    margin-top: 2%;
+    padding: 1% 1% 1% 1%;
+    border: 0;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}

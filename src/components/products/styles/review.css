@@ -1,0 +1,12 @@
+.eachreview{
+    /* text-align: start; */
+    margin-top: 1%;
+}
+
+.eachreview >p{
+    text-align: justify;
+}
+/* 
+.eachreview >p>b{
+    text-align: start;
+} */

@@ -1,0 +1,9 @@
+  .specs{
+    margin: -10% auto 5% auto;
+    display: flex;
+    /* flex-direction: row; */
+    /* grid-row-gap: 1vw; */
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+  }

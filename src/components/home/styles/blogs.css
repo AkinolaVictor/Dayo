@@ -1,0 +1,11 @@
+.blogs{
+    font-family: 'Baloo 2', cursive;
+    color: inherit;
+    margin: 0 3% 0% 3%;
+}
+
+.newblogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

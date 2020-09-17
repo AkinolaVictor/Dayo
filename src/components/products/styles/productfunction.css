@@ -1,0 +1,41 @@
+.prodfunctionality{
+    /* margin: 5%; */
+    /* position: absolute; */
+    /* margin-top: 7%; */
+    padding-top: 11%;
+}
+
+.functions{
+    background: #FFE6E6;
+    /* background: red; */
+    /* text-align: center; */
+    border: .02px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0% 1% 0%;
+}
+
+.funcdesign{
+    padding-right: 1%;
+}
+
+
+.cart{
+    /* width: auto; */
+    cursor: pointer;
+    width: auto;
+    /* padding: 1.5%; */
+    background: #B97A7A;
+    color: white;
+    font-family: inherit;
+    margin-top: 2%;
+    padding: 1% 1% 1% 1%;
+    border: 0;
+    margin-bottom: 2%;
+    margin-left: 2%;
+
+}

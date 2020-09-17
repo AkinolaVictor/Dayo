@@ -1,0 +1,12 @@
+.describ{
+    text-align: start;
+}
+
+.describ > h2{
+    padding-top: 6%;
+}
+
+.describ > p{
+    padding-top: 2%;
+    text-align: justify;
+}

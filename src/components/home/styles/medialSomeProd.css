@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+    .categoryhead{
+        display: grid;
+        grid-template-columns: 60% 20% 20%;
+    }
+}

@@ -1,0 +1,38 @@
+.eachofthestore{
+    width: 250px;
+    padding: 10px;
+    padding-bottom: 20px;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-rows: 18% 67% 15%;
+    height: 200px;
+    margin: 15px;
+    box-shadow: -3px -3px 5px white,
+                 3px 3px 5px #b9bbc5;
+}
+
+.descsize{
+    font-size: small;
+    text-align: justify;
+    line-height: 1.3 ;
+}
+
+.namez{
+    padding-bottom: 5px;
+}
+
+.actionz{
+    padding: 4px;
+    font-family: inherit;
+    background: lightgreen;
+    border: 0;
+    cursor: pointer;
+    margin: 7px;
+    /* color: rgb(12, 5, 5); */
+    color: white;
+}
+
+.delbg{
+    background: red;
+}

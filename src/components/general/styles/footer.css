@@ -1,0 +1,23 @@
+.footer{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    /* display: none; */
+}
+
+.rotate{
+    transform: rotate(180deg);
+    margin-top: 3%;
+    position: relative;
+    /* height: 100px; */
+}
+
+.copyright{
+    position: relative;
+    /* z-index: 1; */
+    color: cyan;
+    font-family: 'Baloo 2', cursive;
+    margin-top: -12%;
+}
+

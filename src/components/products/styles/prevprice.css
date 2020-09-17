@@ -1,0 +1,50 @@
+.textstructure{
+    display: grid;
+    grid-template-rows: 30px auto;
+    margin-right: 5%;
+    border: 1px solid;
+    border-bottom: 0;
+}
+
+.Pname{
+    background: #B97A7A;
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* width: auto; */
+}
+
+
+.Pname >p{
+    padding-top: 3px;
+}
+
+.textcontaina{
+    background: #F8E7E7;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* width: 100%; */
+    margin: auto;
+}
+
+.mainprice{
+    color: #440E0E;
+    font-size: 30px;
+    font-weight: 900;
+    /* text-align: start; */
+    /* float: left; */
+}
+
+.Poption{
+    /* width: auto; */
+    cursor: pointer;
+    width: 100%;
+    padding: 2.1%;
+    background: #B97A7A;
+    color: white;
+    font-family: inherit;
+    margin-top: 2%;
+}

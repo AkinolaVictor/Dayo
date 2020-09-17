@@ -1,0 +1,57 @@
+.content{
+    font-family: 'Baloo 2', cursive;
+    color: inherit;
+    margin: 0 3% 0% 3%;
+}
+
+/* .bar{
+    cursor: pointer;
+} */
+
+.lineHead{
+    margin: 1% 1% 0% 0%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.line{
+    margin-bottom: 1%;
+}
+
+.homeproducts{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: auto; */
+}
+
+.hide{
+    display: none;
+}
+
+.categoryhead{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+}
+
+.catefunct{
+    margin-left: 5%;
+    border: 0;
+    background: lightgreen;
+    border-radius: .3vw;
+    padding: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    color: white;
+    font-size: calc(8.5px + .5vw);
+}
+
+.bgred{
+    background: red;
+}
+
+.itsbtn{
+    text-align: center;
+}

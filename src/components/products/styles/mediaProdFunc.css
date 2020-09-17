@@ -1,0 +1,17 @@
+@media only screen and (max-width: 800px) {
+    .prodfunctionality{
+        /* margin: 5%; */
+        /* position: absolute; */
+        /* margin-top: 7%; */
+        padding-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .prodfunctionality{
+        /* margin: 5%; */
+        /* position: absolute; */
+        /* margin-top: 7%; */
+        padding-top: 25%;
+    }
+}

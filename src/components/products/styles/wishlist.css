@@ -1,0 +1,26 @@
+.wish{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+}
+
+.wishlist{
+    /* position: absolute; */
+    margin:auto 3% auto 3%;
+    /* margin: auto; */
+    /* padding: inherit 10% 5% 10%; */
+    /* justify-content: center; */   
+}
+
+.wishedproducts{
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+}
+
+.line{
+    margin-top: 5px
+}

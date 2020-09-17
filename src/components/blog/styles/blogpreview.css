@@ -1,0 +1,32 @@
+.prodpreview{
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.prevtop{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prodreview{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* display: grid; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* width: 30%; */
+    margin: auto;
+}
+
+.review{
+    text-align: start;
+    margin-top: 5%;
+}
+
+.blogpostt{
+    text-align: justify;
+}

@@ -1,0 +1,50 @@
+.makereview{
+    /* display: grid;
+    grid-template-rows: 30px auto; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+    display: flex;
+    border: 1px solid;
+    height: 200px;
+    width: 40%;
+    height: auto;
+}
+
+.nameLabel{
+    background: #B97A7A;
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
+
+.nameLabel >p{
+    padding-top: 3px;
+    /* padding: 3px 50% 0% 50%; */
+}
+
+.revsub{
+    /* width: auto; */
+    cursor: pointer;
+    width: auto;
+    padding: 1.5%;
+    background: #B97A7A;
+    color: white;
+    font-family: inherit;
+    margin-top: 2%;
+    padding: 1% 3% 1% 3%;
+    border: 0;
+    margin-bottom: 2%;
+
+}
+
+.revtext{
+    line-height: 1.2;
+}

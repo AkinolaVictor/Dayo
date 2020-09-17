@@ -1,0 +1,55 @@
+.blogCategories{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+
+}
+
+/* .blogCategories{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+    padding-right: 3px;
+} */
+
+.ALLcategories{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.ALLcategories >li {
+    width: auto;
+    height: auto;
+    color: black;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: .5vw;
+    cursor: pointer;
+    align-self: center;
+}
+
+.catyname:nth-child(odd){
+    background: #ddd;
+}
+
+.catyname:nth-child(even){
+    background: rgb(190, 188, 188);
+}
+
+.blogsbigscreen{
+    display: block;
+}
+
+.blogssmallscreen{
+    display: none;
+}
+
+.cartz{
+    padding-right: 10px; 
+    padding-left: 10px;
+    background: rosybrown;
+    border: 0;
+}

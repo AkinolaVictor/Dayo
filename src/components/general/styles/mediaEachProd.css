@@ -1,0 +1,53 @@
+@media only screen and (max-width: 600px) {
+    
+    .prodsmallscreen{
+        display: block;
+    }
+    
+    .prodbigscreen{
+        display: none;
+    }
+    .eachproducts{
+        /* text-align: center;
+        width: auto;
+        height: auto; */
+        /* background: ; */
+        /* padding-top: 3%;
+        padding-bottom: 3%; */
+        /* padding: 3% 3% 3% 3%;
+        border-radius: .5vw;
+        box-shadow: -3px -3px 5px white,
+                     3px 3px 5px #b9bbc5;
+
+        margin-left: 3vw; */
+        margin-bottom: 0%;
+        margin-top: 6%;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .produinfo{
+          display: flex;
+          flex-direction: column;
+      }
+
+      .choices{
+          margin-top: 10%;
+      }
+
+      .bar{
+          margin-top: 10%;
+      }
+
+      .func{
+          padding: 1% 2% 1% 2%;
+          border: 0;
+          border-radius: .2vw;
+          background-color: darkkhaki;
+          margin-left: 2%;
+          color: white;
+          font-family: 'Baloo 2', cursive;
+          font-size: small;
+          margin-top: 3%;
+      }
+}

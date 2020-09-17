@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+    .blogsbigscreen{
+        display: none;
+    }
+
+    .blogssmallscreen{
+        display: block;
+    }
+    
+    .ALLcategories >li {
+        font-size: small;
+    }
+
+    
+    .cartz{
+        padding-right: 5px;
+        padding-left: 5px;
+        background: rosybrown;
+        border: 0;
+    }
+    
+  }

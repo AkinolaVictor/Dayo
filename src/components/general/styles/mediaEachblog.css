@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+    .eachblog{
+        width: auto;
+        height: auto;
+        /* border: 1px solid; */
+        margin: 3% auto;
+        /* height: 26vw; */
+    }
+
+    .blogbigscreen{
+        display: none;
+    }
+    
+    .blogsmallscreen{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .blogimg{
+        width:80px;
+        height:80px;
+    }
+
+    .newshead{
+        font-size: small;
+        /* padding-bottom: 0; */
+        margin-top: -4%;
+    }
+
+    .releasedate{
+        font-size: xx-small;
+        padding-bottom: 1%;
+        margin-top: -3%;
+    }
+
+    .highlight{
+        line-height: 1;
+        line-break: auto;
+        font-size: x-small;
+        width: 25ch;
+        text-align: justify;
+    }
+
+    .rdmore{
+        font-size: xx-small;
+        padding: 0% 1% 0% 1%;
+        border-radius: 1%;
+    }
+}

@@ -1,0 +1,50 @@
+.createstore{
+    /* margin: auto 3% auto 3%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.createstoreform{
+    width: 300px;
+    /* padding: 10px; */
+}
+
+.cshead{
+    border: 1px solid;
+    /* margin-left: 10px; */
+    color: white;
+    background: lightgreen;
+    padding: 3px;
+
+}
+
+.storetext{
+    padding-left: 10px;
+}
+
+.storedescription{
+    padding-left: 10px;
+    /* margin-left: 10px; */
+    padding-right: 8px;
+}
+
+.storename{
+    /* margin-left: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: inherit;
+    width: 250px;
+}
+
+.createit{
+    align-self: center;
+    font-family: inherit;
+    color: #fff;
+    /* margin-left: 123px; */
+}
+
+.newstore{
+    margin: auto;
+}

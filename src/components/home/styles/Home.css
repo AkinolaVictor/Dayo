@@ -1,0 +1,70 @@
+.image-container{
+    position: relative;
+    z-index: 0;
+    /* margin-top: 20%; */
+}
+
+
+.main_screen{
+    position: absolute;
+    z-index: 1;
+    margin-top: 6.5vw;
+    padding: 0 2% 0 2%;
+    display: grid;
+    grid-template-columns: 30vw 20vw;
+    /* grid-column-gap: 40%; */
+}
+
+.info >p{
+    color: cyan;
+}
+
+.projName{
+    font-size: calc(1px + 2vw);
+    color: cyan;
+    font-family: 'Baloo 2', cursive;
+    /* margin-top: 50px; */
+    /* z-index: 2; */
+    position: absolute;
+    /* color: crimson; */
+    z-index: 1;
+}
+
+.bigp{
+    margin-top: 6%;
+    font-size: calc(1px + 1.5vw);
+    font-family: 'Baloo 2', cursive;
+    line-height: 1.2;
+}
+
+.smallp{
+    margin-top: 3%;
+    font-size: calc(1px + 1vw);
+    margin-bottom: 2%;
+    font-family: 'Baloo 2', cursive;
+    line-height: 1.5;
+}
+
+
+
+.search_input{
+    background: cyan;
+    border: 0;
+    color: cyan;
+    height: 20px;
+    padding-left: 3px;
+    /* font-family: 'Baloo 2', cursive; */
+}
+
+.form1_submit{
+    margin-left: 5px;
+    color:eal;
+    background: cyan;
+    border: 0;
+    border-radius: 3%;
+    height: 20px;
+    width: auto;
+    padding: 2px;
+    cursor: pointer;
+    /* font-family: 'Baloo 2', cursive; */
+}

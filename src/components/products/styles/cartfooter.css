@@ -1,0 +1,16 @@
+.footbutton{
+    padding: 3% 3%;
+    font-size: calc(6px + 1vw);
+}
+
+.total{
+    text-align: end;
+}
+
+.equl{
+    text-align: start;
+}
+
+.buyr{
+    padding: 7% 7%;
+}

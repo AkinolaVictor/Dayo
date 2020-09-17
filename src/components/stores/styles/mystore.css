@@ -1,0 +1,33 @@
+.stores{
+    margin-top: 3%;
+}
+
+.storename{
+    margin-left: 3%;
+}
+
+.mystoteintro{
+    margin-left: 3%;
+}
+
+.line2{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+.storeztop{
+    display: grid;
+    grid-template-columns: 82% 15%;
+    margin-left: 1%;
+    margin-right: 0%;
+}
+
+.addcat{
+    display: flex;
+    flex-direction: column;
+}
+
+.catnamez{
+    width: 70%;
+}
