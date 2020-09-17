@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux';
-import {categoryToggle} from '../../actions/productsActions/categoryActions'
+// import {categoryToggle} from '../../actions/productsActions/categoryActions'
 import '../home/styles/someProd.css';
 import '../home/styles/medialSomeProd.css';
 import EachProd from '../general/EachProd';
@@ -91,7 +91,7 @@ class EachCategory extends Component {
 
 
 
-const mapStateToProps = (state) => ({
-    auth: state.auth
-})
-export default connect(mapStateToProps, {categoryToggle})(EachCategory);
+// const mapStateToProps = (state) => ({
+//     auth: state.auth
+// })
+export default EachCategory;

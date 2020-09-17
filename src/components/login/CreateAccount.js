@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux';
-import {registerUser} from '../../actions/authActions'
+// import {registerUser} from '../../actions/authActions'
 import './styles/createaccount.css';
 
 class CreateAccount extends Component {
@@ -39,7 +39,7 @@ class CreateAccount extends Component {
         }
 
         this.props.registerUser(newUser);
-        console.log(registerUser, newUser)
+        // console.log(registerUser, newUser)
         
         // console.log(registerUser.payload)
     }
@@ -96,12 +96,12 @@ class CreateAccount extends Component {
     }
 }
 
-CreateAccount.propTypes = {
-    registerUser: PropTypes.func.isRequired,
-    auth: PropTypes.object.isRequired
-}
+// CreateAccount.propTypes = {
+//     registerUser: PropTypes.func.isRequired,
+//     auth: PropTypes.object.isRequired
+// }
 
-const mapStateToProps = (state) => ({
-    auth: state.auth
-})
-export default connect(mapStateToProps, {registerUser})(CreateAccount);
+// const mapStateToProps = (state) => ({
+//     auth: state.auth
+// })
+export default CreateAccount;
